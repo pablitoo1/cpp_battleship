@@ -122,9 +122,9 @@ void HandleFieldAddition::handleShip5Computer(Ship5& ship5, OccupiedField& occup
     } while (!ship5.isFieldsOK(handleGame, menu));
     ship5.isAdded = true;
     occupiedField.addOccupiedField(ship5.getFields());
-    for (int i = 0; i < 5;i++) {
-        //board.updateComputer(ship5.getField(i));
-    }
+    /*for (int i = 0; i < 5;i++) {
+        board.updateComputer(ship5.getField(i));
+    }*/
 }
 
 void HandleFieldAddition::handleShip4Computer(Ship4& ship4, OccupiedField& occupiedField, Board& board, HandleGame& handleGame, Menu& menu) {
@@ -140,9 +140,9 @@ void HandleFieldAddition::handleShip4Computer(Ship4& ship4, OccupiedField& occup
     } while (!ship4.isFieldsOK(handleGame, menu) || occupiedField.isPositionOccupiedComputer(ship4.getFields()));
     ship4.isAdded = true;
     occupiedField.addOccupiedField(ship4.getFields());
-    for (int i = 0; i < 4;i++) {
-        //board.updateComputer(ship4.getField(i));
-    }
+    /*for (int i = 0; i < 4;i++) {
+        board.updateComputer(ship4.getField(i));
+    }*/
 }
 
 void HandleFieldAddition::handleShip3Computer(Ship3& ship3, OccupiedField& occupiedField, Board& board, HandleGame& handleGame, Menu& menu) {
@@ -158,9 +158,9 @@ void HandleFieldAddition::handleShip3Computer(Ship3& ship3, OccupiedField& occup
     } while (!ship3.isFieldsOK(handleGame, menu) || occupiedField.isPositionOccupiedComputer(ship3.getFields()));
     ship3.isAdded = true;
     occupiedField.addOccupiedField(ship3.getFields());
-    for (int i = 0; i < 3;i++) {
-        //board.updateComputer(ship3.getField(i));
-    }
+    /*for (int i = 0; i < 3;i++) {
+        board.updateComputer(ship3.getField(i));
+    }*/
 }
 
 void HandleFieldAddition::handleShip2Computer(Ship2& ship2, OccupiedField& occupiedField, Board& board) {
@@ -176,9 +176,9 @@ void HandleFieldAddition::handleShip2Computer(Ship2& ship2, OccupiedField& occup
     } while (!ship2.isFieldsOK() || occupiedField.isPositionOccupiedComputer(ship2.getFields()));
     ship2.isAdded = true;
     occupiedField.addOccupiedField(ship2.getFields());
-    for (int i = 0; i < 2; i++) {
-        //board.updateComputer(ship2.getField(i));
-    }
+    /*for (int i = 0; i < 2; i++) {
+        board.updateComputer(ship2.getField(i));
+    }*/
 }
 
 void HandleFieldAddition::handleShip1Computer(Ship1& ship1, OccupiedField& occupiedField, Board& board) {
@@ -194,9 +194,9 @@ void HandleFieldAddition::handleShip1Computer(Ship1& ship1, OccupiedField& occup
     } while (!ship1.isFieldsOK() || occupiedField.isPositionOccupiedComputer(ship1.getFields()));
     ship1.isAdded = true;
     occupiedField.addOccupiedField(ship1.getFields());
-    for (int i = 0; i < 1; i++) {
-        //board.updateComputer(ship1.getField(i));
-    }
+    /*for (int i = 0; i < 1; i++) {
+        board.updateComputer(ship1.getField(i));
+    }*/
 }
 
 void HandleFieldAddition::handleShip5Random(Ship5& ship5, OccupiedField& occupiedField, Board& board, Menu& menu, HandleGame& handleGame) {
@@ -266,9 +266,6 @@ void HandleFieldAddition::handleShip4Random(Ship4& ship4, OccupiedField& occupie
             if (!occupiedField.isPositionOccupied(field, occupiedField.getOccupiedFields())) {
                 ship4.addField(field);
             }
-            else {
-                //ship4.addField(200);
-            }
         }
         if (!ship4.isFieldsOK(handleGame, menu) && ship4.numberOfFields() != 4) {
             board.cancelUpdate(ship4.getFields());
@@ -291,9 +288,6 @@ void HandleFieldAddition::handleShip3Random(Ship3& ship3, OccupiedField& occupie
             int field = (rand() % 100) + 1;
             if (!occupiedField.isPositionOccupied(field, occupiedField.getOccupiedFields())) {
                 ship3.addField(field);
-            }
-            else {
-                //ship3.addField(200);
             }
         }
         if (!ship3.isFieldsOK(handleGame, menu) && ship3.numberOfFields() != 3) {
@@ -318,9 +312,6 @@ void HandleFieldAddition::handleShip2Random(Ship2& ship2, OccupiedField& occupie
             if (!occupiedField.isPositionOccupied(field, occupiedField.getOccupiedFields())) {
                 ship2.addField(field);
             }
-            else {
-                //ship2.addField(200);
-            }
         }
         if (!ship2.isFieldsOK() && ship2.numberOfFields() != 2) {
             board.cancelUpdate(ship2.getFields());
@@ -343,9 +334,6 @@ void HandleFieldAddition::handleShip1Random(Ship1& ship1, OccupiedField& occupie
             int field = (rand() % 100) + 1;
             if (!occupiedField.isPositionOccupied(field, occupiedField.getOccupiedFields())) {
                 ship1.addField(field);
-            }
-            else {
-                //ship1.addField(200);
             }
         }
         if (!ship1.isFieldsOK() && ship1.numberOfFields() != 1) {

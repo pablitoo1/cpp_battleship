@@ -1,8 +1,22 @@
-﻿  Game.cpp
-  main.cpp
+﻿  Board.cpp
+D:\CPP PROJECTS\GRA_STATKI\Board.cpp(31,44): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+D:\CPP PROJECTS\GRA_STATKI\Board.cpp(37,46): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+D:\CPP PROJECTS\GRA_STATKI\Board.cpp(43,48): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+D:\CPP PROJECTS\GRA_STATKI\Board.cpp(49,51): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+D:\CPP PROJECTS\GRA_STATKI\Board.cpp(56,69): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+D:\CPP PROJECTS\GRA_STATKI\Board.cpp(56,53): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+D:\CPP PROJECTS\GRA_STATKI\Board.cpp(57,75): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+D:\CPP PROJECTS\GRA_STATKI\Board.cpp(57,59): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+D:\CPP PROJECTS\GRA_STATKI\Board.cpp(58,73): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+D:\CPP PROJECTS\GRA_STATKI\Board.cpp(58,57): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+D:\CPP PROJECTS\GRA_STATKI\Board.cpp(59,79): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+D:\CPP PROJECTS\GRA_STATKI\Board.cpp(59,63): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+  HandleFieldAddition.cpp
+  OccupiedField.cpp
   Trwa generowanie kodu
-  0 of 791 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+D:\CPP PROJECTS\GRA_STATKI\Board.cpp(123): warning C4715: "Board::getPositionComputer”: niewszystkie ścieżki kodu zwracają wartość
+D:\CPP PROJECTS\GRA_STATKI\Board.cpp(110): warning C4715: "Board::getPosition”: niewszystkie ścieżki kodu zwracają wartość
+  All 791 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Zakończono generowanie kodu
   GRA_STATKI.vcxproj -> D:\CPP PROJECTS\GRA_STATKI\x64\Release\GRA_STATKI.exe

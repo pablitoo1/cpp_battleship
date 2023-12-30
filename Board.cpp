@@ -102,7 +102,6 @@ int Board::getPosition(const sf::Event& event) const{
 
         for (int i = 0; i < userBoard.size(); i++) {
             if (userBoard[i].getGlobalBounds().contains(mousePosition)) {
-                //cout << "PLANSZA USER, POLE NR:" << i + 1 << endl;
                 return (i + 1);
             }
         }
@@ -116,7 +115,6 @@ int Board::getPositionComputer(const sf::Event& event) const{
 
         for (int i = 0; i < computerBoard.size(); i++) {
             if (computerBoard[i].getGlobalBounds().contains(mousePosition)) {
-                //cout << "PLANSZA COMPUTER, POLE NR:" << i + 1 << endl;
                 return (i + 1);
             }
         }

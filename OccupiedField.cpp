@@ -59,9 +59,9 @@ void OccupiedField::addOccupiedField(vector <int> fields) {
 }
 
 void OccupiedField::writeOccupiedFields() {
-	for (int i=0; i < occupiedFields.size(); i++) {
-		//cout << occupiedFields[i] << endl;
-	}
+	/*for (int i=0; i < occupiedFields.size(); i++) {
+		cout << occupiedFields[i] << endl;
+	}*/
 }
 
 vector <int> OccupiedField::getOccupiedFields() const{
