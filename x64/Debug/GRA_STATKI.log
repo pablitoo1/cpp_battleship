@@ -1,0 +1,17 @@
+﻿  ClassicVersion.cpp
+  Game.cpp
+  HandleCustomShips.cpp
+  HandleFieldAddition.cpp
+  HandleGame.cpp
+  HandleSunkShip.cpp
+  main.cpp
+  Menu.cpp
+  ReworkedVersion.cpp
+  Ship3.cpp
+D:\CPP PROJECTS\GRA_STATKI\Ship3.cpp(32,23): warning C4267: "return": konwersja z "size_t" do "int", możliwa utrata danych
+  Ship4.cpp
+D:\CPP PROJECTS\GRA_STATKI\Ship4.cpp(32,23): warning C4267: "return": konwersja z "size_t" do "int", możliwa utrata danych
+  Ship5.cpp
+D:\CPP PROJECTS\GRA_STATKI\Ship5.cpp(32,23): warning C4267: "return": konwersja z "size_t" do "int", możliwa utrata danych
+  Generowanie kodu...
+  GRA_STATKI.vcxproj -> D:\CPP PROJECTS\GRA_STATKI\x64\Debug\GRA_STATKI.exe
