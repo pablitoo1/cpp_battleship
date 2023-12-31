@@ -190,12 +190,19 @@
     <ClInclude Include="HandleSunkShip.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="OccupiedField.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="ReworkedVersion.h" />
     <ClInclude Include="Ship1.h" />
     <ClInclude Include="Ship2.h" />
     <ClInclude Include="Ship3.h" />
     <ClInclude Include="Ship4.h" />
     <ClInclude Include="Ship5.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GRA_STATKI.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\icon.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
