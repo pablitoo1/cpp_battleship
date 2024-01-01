@@ -199,6 +199,8 @@ void Game::run()
     }
 }
 
+
+//Reseting all objects variables
 void Game::restartGame()
 {
     first5.resetAll();
