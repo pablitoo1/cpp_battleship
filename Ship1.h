@@ -1,8 +1,8 @@
 #pragma once
 #include <vector>
 #include <iostream>
-#include <queue> //kolejka do przeszukiwania BFS
-#include <set> //nag³ówek do obs³ugi zbiorów
+#include <queue>
+#include <set>
 
 using namespace std;
 

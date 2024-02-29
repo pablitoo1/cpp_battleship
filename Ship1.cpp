@@ -42,12 +42,12 @@ vector <int> Ship1::getFields() const{
 
 bool Ship1::isFieldsOK() const{
     if (fields.size() < 1) {
-        return false; // Za ma³o pól, aby spe³niæ warunek
+        return false;
     }
 
     if(fields[0] > 100) {
         return false;
     }
 
-    return true; // Wszystkie pola s¹ po³¹czone ze sob¹ i s¹ unikalne
+    return true;
 }

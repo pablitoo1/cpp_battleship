@@ -58,6 +58,7 @@ void OccupiedField::addOccupiedField(vector <int> fields) {
 	repairFields();
 }
 
+//do testów
 void OccupiedField::writeOccupiedFields() {
 	/*for (int i=0; i < occupiedFields.size(); i++) {
 		cout << occupiedFields[i] << endl;
@@ -77,10 +78,10 @@ bool OccupiedField::isPositionOccupied(int position, vector <int> fields) const{
 	{
 		if (position == occupiedPosition)
 		{
-			return true; // Ta pozycja jest zajêta
+			return true;
 		}
 	}
-	return false; // Ta pozycja nie jest zajêta
+	return false;
 }
 
 bool OccupiedField::isPositionOccupiedComputer(vector <int> ship) const{
